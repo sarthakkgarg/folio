@@ -33,6 +33,12 @@ const RobotoMono = localFont({
   display: "swap",
 });
 
+const Riga = localFont({
+  src: "./fonts/Riga-Bold.woff2",
+  variable: "--font-riga",
+  display: "swap",
+});
+
 
 
 
@@ -40,7 +46,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"
-      className={`${estrella.variable} ${helvetica.variable}  ${LibreBaskerville.variable} ${NeueMontreal.variable} ${RobotoMono.variable}`}
+      className={`${estrella.variable} ${helvetica.variable}  ${LibreBaskerville.variable} ${NeueMontreal.variable} ${RobotoMono.variable} ${Riga.variable}`}
     >
       {/* 👇 Set Helvetica as default */}
       <body style={{ fontFamily: "var(--font-roboto-mono)" }}>
