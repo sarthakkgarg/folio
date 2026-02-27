@@ -1,0 +1,25 @@
+/* [project]/app/helvetica_548fb195.module.css [app-client] (css) */
+@font-face {
+  font-family: helvetica;
+  src: url("../media/Helvetica-s.p.50bc705a.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: helvetica Fallback;
+  src: local(Arial);
+  ascent-override: 77.0%;
+  descent-override: 23.0%;
+  line-gap-override: 0.0%;
+  size-adjust: 100.0%;
+}
+
+.helvetica_548fb195-module__MssYIa__className {
+  font-family: helvetica, helvetica Fallback;
+}
+
+.helvetica_548fb195-module__MssYIa__variable {
+  --font-helvetica: "helvetica", "helvetica Fallback";
+}
+
+/*# sourceMappingURL=app_helvetica_548fb195_module_css_bad6b30c._.single.css.map*/

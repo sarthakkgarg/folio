@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/robotomono_f4e0f392.module.css"],"sourcesContent":["@font-face {\n    \nfont-family: 'RobotoMono';\n    src: url('@vercel/turbopack-next/internal/font/local/font?{%22path%22:%22./fonts/RobotoMono.woff2%22,%22preload%22:true,%22has_size_adjust%22:true}') format('woff2');\n    font-display: swap;\n    \n}\n\n@font-face {\n    font-family: 'RobotoMono Fallback';\n    src: local(\"Arial\");\n    ascent-override: 70.54%;\ndescent-override: 18.56%;\nline-gap-override: 0.00%;\nsize-adjust: 131.52%;\n\n}\n\n.className {\n    font-family: 'RobotoMono', 'RobotoMono Fallback';\n    \n}\n.variable {\n    --font-roboto-mono: 'RobotoMono', 'RobotoMono Fallback';\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;AAQA;;;;;;;;;AAUA;;;;AAIA"}}]
+}

@@ -1,0 +1,25 @@
+/* [project]/app/manic_7c1d4d69.module.css [app-client] (css) */
+@font-face {
+  font-family: manic;
+  src: url("../media/Manic-s.p.d8c75401.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: manic Fallback;
+  src: local(Arial);
+  ascent-override: 95.25%;
+  descent-override: 38.64%;
+  line-gap-override: 0.0%;
+  size-adjust: 103.52%;
+}
+
+.manic_7c1d4d69-module__xWX03a__className {
+  font-family: manic, manic Fallback;
+}
+
+.manic_7c1d4d69-module__xWX03a__variable {
+  --font-manic: "manic", "manic Fallback";
+}
+
+/*# sourceMappingURL=app_manic_7c1d4d69_module_css_bad6b30c._.single.css.map*/

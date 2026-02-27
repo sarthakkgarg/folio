@@ -1,0 +1,25 @@
+/* [project]/app/estrella_570a1d28.module.css [app-client] (css) */
+@font-face {
+  font-family: estrella;
+  src: url("../media/Estrella_Early-s.p.a417fa4e.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: estrella Fallback;
+  src: local(Arial);
+  ascent-override: 122.71%;
+  descent-override: 24.72%;
+  line-gap-override: 0.0%;
+  size-adjust: 57.05%;
+}
+
+.estrella_570a1d28-module__2gYT1a__className {
+  font-family: estrella, estrella Fallback;
+}
+
+.estrella_570a1d28-module__2gYT1a__variable {
+  --font-estrella: "estrella", "estrella Fallback";
+}
+
+/*# sourceMappingURL=app_estrella_570a1d28_module_css_bad6b30c._.single.css.map*/

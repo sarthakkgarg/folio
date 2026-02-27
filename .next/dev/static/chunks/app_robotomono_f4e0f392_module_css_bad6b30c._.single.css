@@ -1,0 +1,25 @@
+/* [project]/app/robotomono_f4e0f392.module.css [app-client] (css) */
+@font-face {
+  font-family: RobotoMono;
+  src: url("../media/RobotoMono-s.p.4c123b09.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: RobotoMono Fallback;
+  src: local(Arial);
+  ascent-override: 70.54%;
+  descent-override: 18.56%;
+  line-gap-override: 0.0%;
+  size-adjust: 131.52%;
+}
+
+.robotomono_f4e0f392-module__4tOQAG__className {
+  font-family: RobotoMono, RobotoMono Fallback;
+}
+
+.robotomono_f4e0f392-module__4tOQAG__variable {
+  --font-roboto-mono: "RobotoMono", "RobotoMono Fallback";
+}
+
+/*# sourceMappingURL=app_robotomono_f4e0f392_module_css_bad6b30c._.single.css.map*/

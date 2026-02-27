@@ -1,0 +1,25 @@
+/* [project]/app/librebaskerville_b0b5ba64.module.css [app-client] (css) */
+@font-face {
+  font-family: LibreBaskerville;
+  src: url("../media/LibreBaskerville-s.p.8137f400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: LibreBaskerville Fallback;
+  src: local(Arial);
+  ascent-override: 83.43%;
+  descent-override: 23.22%;
+  line-gap-override: 0.0%;
+  size-adjust: 116.27%;
+}
+
+.librebaskerville_b0b5ba64-module__EzXjIG__className {
+  font-family: LibreBaskerville, LibreBaskerville Fallback;
+}
+
+.librebaskerville_b0b5ba64-module__EzXjIG__variable {
+  --font-libre-baskerville: "LibreBaskerville", "LibreBaskerville Fallback";
+}
+
+/*# sourceMappingURL=app_librebaskerville_b0b5ba64_module_css_bad6b30c._.single.css.map*/

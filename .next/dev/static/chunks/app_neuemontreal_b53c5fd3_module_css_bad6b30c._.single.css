@@ -1,0 +1,25 @@
+/* [project]/app/neuemontreal_b53c5fd3.module.css [app-client] (css) */
+@font-face {
+  font-family: NeueMontreal;
+  src: url("../media/NeueMontreal-s.p.52033d74.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: NeueMontreal Fallback;
+  src: local(Arial);
+  ascent-override: 95.45%;
+  descent-override: 22.63%;
+  line-gap-override: 0.0%;
+  size-adjust: 101.63%;
+}
+
+.neuemontreal_b53c5fd3-module__i5m0jW__className {
+  font-family: NeueMontreal, NeueMontreal Fallback;
+}
+
+.neuemontreal_b53c5fd3-module__i5m0jW__variable {
+  --font-neue-montreal: "NeueMontreal", "NeueMontreal Fallback";
+}
+
+/*# sourceMappingURL=app_neuemontreal_b53c5fd3_module_css_bad6b30c._.single.css.map*/
