@@ -14,11 +14,7 @@ const helvetica = localFont({
   display: "swap",
 });
 
-const manic = localFont({
-  src: "./fonts/Manic.woff2",
-  variable: "--font-manic",
-  display: "swap",
-});
+
 
 const LibreBaskerville = localFont({
   src: "./fonts/LibreBaskerville.woff2",
@@ -44,7 +40,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"
-      className={`${estrella.variable} ${helvetica.variable} ${manic.variable} ${LibreBaskerville.variable} ${NeueMontreal.variable} ${RobotoMono.variable}`}
+      className={`${estrella.variable} ${helvetica.variable}  ${LibreBaskerville.variable} ${NeueMontreal.variable} ${RobotoMono.variable}`}
     >
       {/* 👇 Set Helvetica as default */}
       <body style={{ fontFamily: "var(--font-roboto-mono)" }}>
