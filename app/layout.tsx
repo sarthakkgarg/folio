@@ -23,7 +23,7 @@ const LibreBaskerville = localFont({
 });
 
 const NeueMontreal = localFont({
-  src: "./fonts/NeueMontreal.woff2",
+  src: "./fonts/NeueMontreal2.woff2",
   variable: "--font-neue-montreal",
   display: "swap",
 });
@@ -49,7 +49,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       className={`${estrella.variable} ${helvetica.variable}  ${LibreBaskerville.variable} ${NeueMontreal.variable} ${RobotoMono.variable} ${Riga.variable}`}
     >
       {/* 👇 Set Helvetica as default */}
-      <body style={{ fontFamily: "var(--font-roboto-mono)" }}>
+      <body style={{ fontFamily: "var(--font-neue-montreal)" }}>
         {children}
       </body>
     </html>
