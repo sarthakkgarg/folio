@@ -45,9 +45,12 @@ const Riga = localFont({
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
+
+    
       lang="en"
       className={`${estrella.variable} ${helvetica.variable}  ${LibreBaskerville.variable} ${NeueMontreal.variable} ${RobotoMono.variable} ${Riga.variable}`}
     >
+      
       {/* 👇 Set Helvetica as default */}
       <body style={{ fontFamily: "var(--font-neue-montreal)" }}>
         {children}
