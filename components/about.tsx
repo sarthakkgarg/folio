@@ -113,17 +113,17 @@ const experience = [
 
 const freelance = [
   {
-    client: "AiPsychi",
-    logo: "/images/aipsychi.webp",
-    role: "Full Stack Engineer & Product Designer",
-    period: "2024–2025",
-    link: "https://aipsychi.com",
+    client: "Sarashree",
+    logo: "/images/sarashree.png",
+    role: "Full Stack Developer & Brand Designer",
+    period: "2026",
+    link: "https://sarashree.com",
     description: [
-      "Conceptualized, designed, and engineered a complete digital assessment infrastructure for mental health professionals.",
-      "Handled every layer — business logic, UX/UI design, API development, database modeling, and cloud deployment.",
-      "The platform supports structured assessments, dynamic session workflows, subscription logic, and secure clinical data handling.",
+      "Delivered a full-featured e-commerce website covering everything from UI design to backend logic and deployment.",
+      "Engineered dynamic product catalogs, shopping cart, secure checkout, order management, and user authentication.",
+      "Integrated Razorpay payment gateway and deployed scalable services on AWS for fast, reliable load times.",
     ],
-    tags: ["React", "React Native", "Node.js", "MongoDB", "AWS", "Material UI", "OpenAI API"],
+    tags: ["React", "Node.js", "MongoDB", "AWS", "Figma", "Razorpay", "Tailwind CSS"],
   },
   {
     client: "Thriving Minds",
@@ -139,18 +139,20 @@ const freelance = [
     tags: ["React", "React Native", "Node.js", "MongoDB", "AWS", "Material UI", "OpenAI API"],
   },
   {
-    client: "Sarashree",
-    logo: "/images/sarashree.png",
-    role: "Full Stack Developer & Brand Designer",
-    period: "2026",
-    link: "https://sarashree.com",
+    client: "AiPsychi",
+    logo: "/images/aipsychi.webp",
+    role: "Full Stack Engineer & Product Designer",
+    period: "2024–2025",
+    link: "https://aipsychi.com",
     description: [
-      "Delivered a full-featured e-commerce website covering everything from UI design to backend logic and deployment.",
-      "Engineered dynamic product catalogs, shopping cart, secure checkout, order management, and user authentication.",
-      "Integrated Razorpay payment gateway and deployed scalable services on AWS for fast, reliable load times.",
+      "Conceptualized, designed, and engineered a complete digital assessment infrastructure for mental health professionals.",
+      "Handled every layer — business logic, UX/UI design, API development, database modeling, and cloud deployment.",
+      "The platform supports structured assessments, dynamic session workflows, subscription logic, and secure clinical data handling.",
     ],
-    tags: ["React", "Node.js", "MongoDB", "AWS", "Figma", "Razorpay", "Tailwind CSS"],
+    tags: ["React", "React Native", "Node.js", "MongoDB", "AWS", "Material UI", "OpenAI API"],
   },
+  
+  
 ];
 
 /* ─── Page ──────────────────────────────────────────── */
@@ -487,37 +489,7 @@ export default function InfoPage() {
           <div style={s.label}>Experience</div>
           <div style={s.content}>
 
-            {/* Full-time */}
-            <div className="exp-group-label">Full-time</div>
-            <div className="exp-timeline">
-              {experience.map((e) => (
-                <div key={e.company} className="exp-card">
-                  <div className="exp-card-head">
-                    <div className="exp-logo">
-                      {e.logo ? <img src={e.logo} alt={e.company} /> : e.company.slice(0,2).toUpperCase()}
-                    </div>
-                    <div className="exp-meta-block">
-                      <div className="exp-meta-row">
-                        <div className="exp-name-role">
-                          <span className="exp-company">{e.company}</span>
-                          <span className="exp-sep">·</span>
-                          <span className="exp-role">{e.role}</span>
-                        </div>
-                        <span className="exp-period">{e.period}</span>
-                      </div>
-                      <div className="exp-sub">{e.location}</div>
-                    </div>
-                  </div>
-                  <div className="exp-desc-block">
-                    {e.description.map((line, i) => (
-                      <p key={i} className="exp-desc-line">{line}</p>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Freelance */}
+             {/* Freelance */}
             <div className="exp-group-label">Freelance & Contract</div>
             <div className="exp-timeline">
               {freelance.map((f) => (
@@ -556,6 +528,38 @@ export default function InfoPage() {
                 </div>
               ))}
             </div>
+
+            {/* Full-time */}
+            <div className="exp-group-label">Full-time</div>
+            <div className="exp-timeline">
+              {experience.map((e) => (
+                <div key={e.company} className="exp-card">
+                  <div className="exp-card-head">
+                    <div className="exp-logo">
+                      {e.logo ? <img src={e.logo} alt={e.company} /> : e.company.slice(0,2).toUpperCase()}
+                    </div>
+                    <div className="exp-meta-block">
+                      <div className="exp-meta-row">
+                        <div className="exp-name-role">
+                          <span className="exp-company">{e.company}</span>
+                          <span className="exp-sep">·</span>
+                          <span className="exp-role">{e.role}</span>
+                        </div>
+                        <span className="exp-period">{e.period}</span>
+                      </div>
+                      <div className="exp-sub">{e.location}</div>
+                    </div>
+                  </div>
+                  <div className="exp-desc-block">
+                    {e.description.map((line, i) => (
+                      <p key={i} className="exp-desc-line">{line}</p>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+           
 
           </div>
         </section>
